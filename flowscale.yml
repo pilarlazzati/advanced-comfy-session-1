@@ -175,7 +175,7 @@ workflows:
   - id: tp6kvrb4w2e
     name: prizewinner_admaker_api.json
     file: capstone_project_-_ai_product_ad_engine/prizewinner_admaker_api.json
-    version: 2
+    version: 3
     description: ''
     inputs:
       - path: 11.inputs.image
@@ -185,7 +185,16 @@ workflows:
         demo_type: image
         category: input
         randomize: false
-    outputs: []
+      - path: 24.inputs.filename_prefix
+        label: filename_prefix
+        parameter_name: filename_prefix_23269
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+    outputs:
+      - label: Output Image
+        demo_type: image
     skip_preprocess: true
     advancedConfig: false
 normal_workflows:
@@ -240,4 +249,4 @@ normal_workflows:
   - id: i5jd9dw524
     name: prizewinner_admaker.json
     file: capstone_project_-_ai_product_ad_engine/prizewinner_admaker.json
-    version: 2
+    version: 3
