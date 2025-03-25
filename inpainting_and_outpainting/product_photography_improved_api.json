@@ -133,7 +133,7 @@
     },
     "20": {
         "inputs": {
-            "seed": 654689829781574,
+            "seed": 307369423962455,
             "steps": 20,
             "cfg": 8,
             "sampler_name": "euler",
@@ -213,7 +213,7 @@
             "interpolation": "nearest",
             "method": "keep proportion",
             "condition": "always",
-            "multiple_of": 0,
+            "multiple_of": 8,
             "image": [
                 "65",
                 0
@@ -359,7 +359,7 @@
     },
     "35": {
         "inputs": {
-            "seed": 786506531041769,
+            "seed": 1034456352095730,
             "steps": 40,
             "cfg": 2,
             "sampler_name": "dpmpp_2m_sde",
@@ -777,7 +777,7 @@
     },
     "65": {
         "inputs": {
-            "image": "example.png",
+            "image": "Jean Paul Gaultier Perfum Woman.jpeg",
             "upload": "image",
             "label": "Input Product Image"
         },
