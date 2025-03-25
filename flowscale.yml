@@ -250,3 +250,9 @@ normal_workflows:
     name: prizewinner_admaker.json
     file: capstone_project_-_ai_product_ad_engine/prizewinner_admaker.json
     version: 8
+  - id: 0wo8wjbtckgi
+    name: >-
+      workflow-ace-portrait-lora-face-swap-workflow-pixel-enhance-crop-and-stitch-hbeglcsgcc5gcewvgivp-ai_jigyasa-openart.ai_(1).json
+    file: >-
+      capstone_project_-_ai_product_ad_engine/workflow-ace-portrait-lora-face-swap-workflow-pixel-enhance-crop-and-stitch-hbeglcsgcc5gcewvgivp-ai_jigyasa-openart.ai_(1).json
+    version: 0
