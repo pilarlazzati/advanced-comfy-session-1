@@ -54,7 +54,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                318319662163509,
+                203521289027402,
                 "randomize",
                 20,
                 8,
@@ -356,7 +356,7 @@
                 "nearest",
                 "stretch",
                 "always",
-                0
+                8
             ]
         },
         {
@@ -440,7 +440,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                667704942802854,
+                436226368834697,
                 "randomize",
                 20,
                 7,
@@ -609,7 +609,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "professional product photo of the product loaded in the fs load image, studio lighting, 8K detail"
+                "professional product photo of the resized image, studio lighting, 8K detail"
             ]
         },
         {
@@ -966,10 +966,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.6830134553650709,
+            "scale": 0.6209213230591553,
             "offset": [
-                142.171609708648,
-                1141.3280138573357
+                216.12190200802021,
+                1130.916132500273
             ]
         }
     },
