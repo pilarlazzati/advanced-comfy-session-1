@@ -54,7 +54,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                5156888502421,
+                859917712683715,
                 "randomize",
                 20,
                 8,
@@ -317,7 +317,7 @@
             "flags": {
                 "collapsed": true
             },
-            "order": 3,
+            "order": 4,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -345,8 +345,8 @@
             "id": 12,
             "type": "ImageResize+",
             "pos": [
-                540.0808715820312,
-                -732.1295166015625
+                511.4496154785156,
+                -745.550537109375
             ],
             "size": [
                 315,
@@ -423,7 +423,8 @@
                 "cnr_id": "comfy-core",
                 "ver": "0.3.15",
                 "Node name for S&R": "PreviewImage"
-            }
+            },
+            "widgets_values": []
         },
         {
             "id": 15,
@@ -477,13 +478,13 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                563428055142725,
+                439081679652114,
                 "randomize",
-                25,
-                8.5,
+                20,
+                7,
                 "euler",
                 "normal",
-                1
+                0.85
             ]
         },
         {
@@ -498,7 +499,7 @@
                 58
             ],
             "flags": {},
-            "order": 4,
+            "order": 2,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -561,7 +562,8 @@
                 "cnr_id": "comfy-core",
                 "ver": "0.3.15",
                 "Node name for S&R": "VAEEncode"
-            }
+            },
+            "widgets_values": []
         },
         {
             "id": 18,
@@ -605,7 +607,8 @@
                 "cnr_id": "comfy-core",
                 "ver": "0.3.15",
                 "Node name for S&R": "VAEDecode"
-            }
+            },
+            "widgets_values": []
         },
         {
             "id": 19,
@@ -699,7 +702,7 @@
                 142
             ],
             "flags": {},
-            "order": 2,
+            "order": 3,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -966,10 +969,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.6209213230591555,
+            "scale": 0.8264462809917361,
             "offset": [
-                255.62438504215154,
-                1203.1329740468882
+                -70.5209264129045,
+                1021.9637128783033
             ]
         }
     },
