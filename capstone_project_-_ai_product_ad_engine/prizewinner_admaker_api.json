@@ -1,7 +1,7 @@
 {
     "3": {
         "inputs": {
-            "seed": 940859859078879,
+            "seed": 5156888502421,
             "steps": 20,
             "cfg": 8,
             "sampler_name": "euler",
@@ -147,7 +147,7 @@
     },
     "15": {
         "inputs": {
-            "seed": 1020097965268571,
+            "seed": 563428055142725,
             "steps": 25,
             "cfg": 8.5,
             "sampler_name": "euler",
@@ -253,17 +253,21 @@
             "title": "Checkpoint Loader 🐍"
         }
     },
-    "23": {
+    "24": {
         "inputs": {
-            "filename_prefix": "ComfyUI",
+            "filename_prefix": "FlowScale",
+            "format": "png",
+            "label": "Output Image",
+            "quality": 95,
+            "lossless": false,
             "images": [
                 "18",
                 0
             ]
         },
-        "class_type": "SaveImage",
+        "class_type": "FSSaveImage",
         "_meta": {
-            "title": "Save Image"
+            "title": "[FS]⚡Save Image (Output)"
         }
     }
 }
