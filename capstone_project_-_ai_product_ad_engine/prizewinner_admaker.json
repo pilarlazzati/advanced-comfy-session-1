@@ -1,6 +1,6 @@
 {
-    "last_node_id": 24,
-    "last_link_id": 26,
+    "last_node_id": 26,
+    "last_link_id": 27,
     "nodes": [
         {
             "id": 3,
@@ -54,7 +54,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                859917712683715,
+                318319662163509,
                 "randomize",
                 20,
                 8,
@@ -75,7 +75,7 @@
                 98
             ],
             "flags": {},
-            "order": 1,
+            "order": 0,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -126,7 +126,7 @@
                 106
             ],
             "flags": {},
-            "order": 0,
+            "order": 1,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -304,44 +304,6 @@
             ]
         },
         {
-            "id": 11,
-            "type": "FSLoadImage",
-            "pos": [
-                276.61187744140625,
-                -521.6915893554688
-            ],
-            "size": [
-                315,
-                318
-            ],
-            "flags": {
-                "collapsed": true
-            },
-            "order": 4,
-            "mode": 0,
-            "inputs": [],
-            "outputs": [
-                {
-                    "name": "image",
-                    "type": "IMAGE",
-                    "links": [
-                        10
-                    ],
-                    "slot_index": 0
-                }
-            ],
-            "properties": {
-                "aux_id": "FlowScale-AI/flowscale-nodes",
-                "ver": "ae4978f9f330c1436efba9bf2411dc0ce7c20bd5",
-                "Node name for S&R": "FSLoadImage"
-            },
-            "widgets_values": [
-                "1024x1024 champagne bottle.png",
-                "image",
-                "Input Image"
-            ]
-        },
-        {
             "id": 12,
             "type": "ImageResize+",
             "pos": [
@@ -359,7 +321,7 @@
                 {
                     "name": "image",
                     "type": "IMAGE",
-                    "link": 10
+                    "link": 27
                 }
             ],
             "outputs": [
@@ -389,8 +351,8 @@
                 "Node name for S&R": "ImageResize+"
             },
             "widgets_values": [
-                512,
-                512,
+                1024,
+                1024,
                 "nearest",
                 "stretch",
                 "always",
@@ -478,7 +440,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                439081679652114,
+                667704942802854,
                 "randomize",
                 20,
                 7,
@@ -491,15 +453,15 @@
             "id": 16,
             "type": "VAELoader",
             "pos": [
-                505.1361999511719,
-                -1093.728271484375
+                541.483642578125,
+                -1084.9422607421875
             ],
             "size": [
                 315,
                 58
             ],
             "flags": {},
-            "order": 2,
+            "order": 4,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -569,8 +531,8 @@
             "id": 18,
             "type": "VAEDecode",
             "pos": [
-                1437.5108642578125,
-                -1081.2110595703125
+                1439.1375732421875,
+                -1057.6221923828125
             ],
             "size": [
                 210,
@@ -647,7 +609,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "professional product photo, studio lighting, 8K detail"
+                "professional product photo of the product loaded in the fs load image, studio lighting, 8K detail"
             ]
         },
         {
@@ -702,7 +664,7 @@
                 142
             ],
             "flags": {},
-            "order": 3,
+            "order": 2,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -749,12 +711,12 @@
             "id": 24,
             "type": "FSSaveImage",
             "pos": [
-                1623.3040771484375,
-                -1106.3065185546875
+                1600.5294189453125,
+                -1090.8519287109375
             ],
             "size": [
                 315,
-                154
+                366
             ],
             "flags": {},
             "order": 17,
@@ -784,6 +746,41 @@
                 "Output Image",
                 95,
                 false
+            ]
+        },
+        {
+            "id": 25,
+            "type": "FSLoadImage",
+            "pos": [
+                153.6478271484375,
+                -524.4864501953125
+            ],
+            "size": [
+                315,
+                318
+            ],
+            "flags": {},
+            "order": 3,
+            "mode": 0,
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "image",
+                    "type": "IMAGE",
+                    "links": [
+                        27
+                    ]
+                }
+            ],
+            "properties": {
+                "aux_id": "FlowScale-AI/flowscale-nodes",
+                "ver": "ae4978f9f330c1436efba9bf2411dc0ce7c20bd5",
+                "Node name for S&R": "FSLoadImage"
+            },
+            "widgets_values": [
+                "water-bottle.jpeg",
+                "image",
+                "Input Image"
             ]
         }
     ],
@@ -857,14 +854,6 @@
             8,
             0,
             9,
-            0,
-            "IMAGE"
-        ],
-        [
-            10,
-            11,
-            0,
-            12,
             0,
             "IMAGE"
         ],
@@ -963,16 +952,24 @@
             24,
             0,
             "IMAGE"
+        ],
+        [
+            27,
+            25,
+            0,
+            12,
+            0,
+            "IMAGE"
         ]
     ],
     "groups": [],
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.8264462809917361,
+            "scale": 0.6830134553650709,
             "offset": [
-                -70.5209264129045,
-                1021.9637128783033
+                142.171609708648,
+                1141.3280138573357
             ]
         }
     },
