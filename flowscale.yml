@@ -262,7 +262,7 @@ normal_workflows:
       capstone_project_-_ai_product_ad_engine/flux_workflow_input_perfume_royalchair_castle_womanprompt.json
     version: 0
   - id: 0ollhzzxm7pm
-    name: final_pilar_face_swap_ai_influencer_improved_(1).json
+    name: flux_workflow_input_perfume_royalchair_castle_woman_face_swapt.json
     file: >-
-      capstone_project_-_ai_product_ad_engine/final_pilar_face_swap_ai_influencer_improved_(1).json
-    version: 0
+      capstone_project_-_ai_product_ad_engine/flux_workflow_input_perfume_royalchair_castle_woman_face_swapt.json
+    version: 1
