@@ -197,6 +197,16 @@ workflows:
         demo_type: image
     skip_preprocess: true
     advancedConfig: false
+  - id: lg5hti9yv
+    name: flux_3_images_perfume_chair_castle_and_woman_prompt_api.json
+    file: >-
+      capstone_project_-_ai_product_ad_engine/flux_3_images_perfume_chair_castle_and_woman_prompt_api.json
+    version: 2
+    description: ''
+    inputs: []
+    outputs: []
+    skip_preprocess: true
+    advancedConfig: false
 normal_workflows:
   - id: dt1vvo7wj2u
     name: basic_inpainting.json
@@ -260,7 +270,7 @@ normal_workflows:
     name: flux_3_images_perfume_chair_castle_and_woman_prompt.json
     file: >-
       capstone_project_-_ai_product_ad_engine/flux_3_images_perfume_chair_castle_and_woman_prompt.json
-    version: 1
+    version: 2
   - id: 0ollhzzxm7pm
     name: flux_workflow_input_perfume_royalchair_castle_woman_face_swapt.json
     file: >-
