@@ -1,7 +1,7 @@
 {
     "3": {
         "inputs": {
-            "seed": 156680208700286,
+            "seed": 444927116618970,
             "steps": 20,
             "cfg": 8,
             "sampler_name": "euler",
@@ -147,7 +147,7 @@
     },
     "15": {
         "inputs": {
-            "seed": 0,
+            "seed": 1014037154355455,
             "steps": 20,
             "cfg": 8,
             "sampler_name": "euler",
@@ -165,7 +165,7 @@
     },
     "16": {
         "inputs": {
-            "vae_name": "ae.safetensors"
+            "vae_name": "vae-ft-mse-840000-ema-pruned.safetensors"
         },
         "class_type": "VAELoader",
         "_meta": {
