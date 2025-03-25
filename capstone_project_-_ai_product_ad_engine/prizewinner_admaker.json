@@ -1,5 +1,5 @@
 {
-    "last_node_id": 26,
+    "last_node_id": 27,
     "last_link_id": 27,
     "nodes": [
         {
@@ -14,7 +14,7 @@
                 262
             ],
             "flags": {},
-            "order": 10,
+            "order": 11,
             "mode": 0,
             "inputs": [
                 {
@@ -162,7 +162,7 @@
                 164.31304931640625
             ],
             "flags": {},
-            "order": 5,
+            "order": 6,
             "mode": 0,
             "inputs": [
                 {
@@ -202,7 +202,7 @@
                 180.6060791015625
             ],
             "flags": {},
-            "order": 6,
+            "order": 7,
             "mode": 0,
             "inputs": [
                 {
@@ -242,7 +242,7 @@
                 46
             ],
             "flags": {},
-            "order": 13,
+            "order": 14,
             "mode": 0,
             "inputs": [
                 {
@@ -285,7 +285,7 @@
                 270
             ],
             "flags": {},
-            "order": 15,
+            "order": 16,
             "mode": 0,
             "inputs": [
                 {
@@ -315,7 +315,7 @@
                 218
             ],
             "flags": {},
-            "order": 9,
+            "order": 10,
             "mode": 0,
             "inputs": [
                 {
@@ -346,9 +346,10 @@
                 }
             ],
             "properties": {
-                "cnr_id": "comfyui_essentials",
+                "aux_id": "cubiq/ComfyUI_essentials",
                 "ver": "33ff89fd354d8ec3ab6affb605a79a931b445d99",
-                "Node name for S&R": "ImageResize+"
+                "Node name for S&R": "ImageResize+",
+                "cnr_id": "comfyui_essentials"
             },
             "widgets_values": [
                 1024,
@@ -371,7 +372,7 @@
                 246
             ],
             "flags": {},
-            "order": 11,
+            "order": 12,
             "mode": 0,
             "inputs": [
                 {
@@ -400,7 +401,7 @@
                 262
             ],
             "flags": {},
-            "order": 14,
+            "order": 15,
             "mode": 0,
             "inputs": [
                 {
@@ -461,7 +462,7 @@
                 58
             ],
             "flags": {},
-            "order": 4,
+            "order": 2,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -496,7 +497,7 @@
                 46
             ],
             "flags": {},
-            "order": 12,
+            "order": 13,
             "mode": 0,
             "inputs": [
                 {
@@ -541,7 +542,7 @@
             "flags": {
                 "collapsed": true
             },
-            "order": 16,
+            "order": 17,
             "mode": 0,
             "inputs": [
                 {
@@ -584,7 +585,7 @@
                 200
             ],
             "flags": {},
-            "order": 7,
+            "order": 8,
             "mode": 0,
             "inputs": [
                 {
@@ -624,7 +625,7 @@
                 200
             ],
             "flags": {},
-            "order": 8,
+            "order": 9,
             "mode": 0,
             "inputs": [
                 {
@@ -664,7 +665,7 @@
                 142
             ],
             "flags": {},
-            "order": 2,
+            "order": 3,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -697,9 +698,10 @@
                 }
             ],
             "properties": {
-                "cnr_id": "comfyui-custom-scripts",
+                "aux_id": "pythongosssss/ComfyUI-Custom-Scripts",
                 "ver": "9f7b3215e6af317603056a9a1666bf6e83e28835",
-                "Node name for S&R": "CheckpointLoader|pysssss"
+                "Node name for S&R": "CheckpointLoader|pysssss",
+                "cnr_id": "comfyui-custom-scripts"
             },
             "widgets_values": [
                 "epicrealism_naturalSinRC1VAE.safetensors",
@@ -719,7 +721,7 @@
                 366
             ],
             "flags": {},
-            "order": 17,
+            "order": 18,
             "mode": 0,
             "inputs": [
                 {
@@ -760,7 +762,7 @@
                 318
             ],
             "flags": {},
-            "order": 3,
+            "order": 4,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -781,6 +783,55 @@
                 "water-bottle.jpeg",
                 "image",
                 "Input Image"
+            ]
+        },
+        {
+            "id": 27,
+            "type": "LoraLoader",
+            "pos": [
+                -262.56488037109375,
+                -1127.217529296875
+            ],
+            "size": [
+                315,
+                126
+            ],
+            "flags": {},
+            "order": 5,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "model",
+                    "type": "MODEL",
+                    "link": null
+                },
+                {
+                    "name": "clip",
+                    "type": "CLIP",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MODEL",
+                    "type": "MODEL",
+                    "links": null
+                },
+                {
+                    "name": "CLIP",
+                    "type": "CLIP",
+                    "links": null
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.15",
+                "Node name for S&R": "LoraLoader"
+            },
+            "widgets_values": [
+                "COOLKIDS_MERGE_V2.5.safetensors",
+                1,
+                1
             ]
         }
     ],
@@ -966,10 +1017,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.6209213230591553,
+            "scale": 0.6830134553650709,
             "offset": [
-                260.6956329772585,
-                1076.7427895877659
+                335.76995846187754,
+                1315.2880224534551
             ]
         }
     },
