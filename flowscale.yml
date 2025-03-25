@@ -257,10 +257,10 @@ normal_workflows:
       capstone_project_-_ai_product_ad_engine/workflow-ace-portrait-lora-face-swap-workflow-pixel-enhance-crop-and-stitch-hbeglcsgcc5gcewvgivp-ai_jigyasa-openart.ai_(1).json
     version: 0
   - id: pgx2y18mq2l
-    name: flux_workflow_input_perfume_royalchair_castle_womanprompt.json
+    name: flux_3_images_perfume_chair_castle_and_woman_prompt.json
     file: >-
-      capstone_project_-_ai_product_ad_engine/flux_workflow_input_perfume_royalchair_castle_womanprompt.json
-    version: 0
+      capstone_project_-_ai_product_ad_engine/flux_3_images_perfume_chair_castle_and_woman_prompt.json
+    version: 1
   - id: 0ollhzzxm7pm
     name: flux_workflow_input_perfume_royalchair_castle_woman_face_swapt.json
     file: >-
