@@ -175,7 +175,7 @@ workflows:
   - id: tp6kvrb4w2e
     name: prizewinner_admaker_api.json
     file: capstone_project_-_ai_product_ad_engine/prizewinner_admaker_api.json
-    version: 6
+    version: 7
     description: ''
     inputs:
       - path: 24.inputs.filename_prefix
@@ -249,4 +249,4 @@ normal_workflows:
   - id: i5jd9dw524
     name: prizewinner_admaker.json
     file: capstone_project_-_ai_product_ad_engine/prizewinner_admaker.json
-    version: 6
+    version: 7
