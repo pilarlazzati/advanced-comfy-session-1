@@ -1,7 +1,7 @@
 {
     "3": {
         "inputs": {
-            "seed": 203521289027402,
+            "seed": 201204962268348,
             "steps": 20,
             "cfg": 8,
             "sampler_name": "euler",
@@ -136,7 +136,7 @@
     },
     "15": {
         "inputs": {
-            "seed": 436226368834697,
+            "seed": 930912176000862,
             "steps": 20,
             "cfg": 7,
             "sampler_name": "euler",
@@ -207,7 +207,7 @@
     },
     "19": {
         "inputs": {
-            "text": "professional product photo of the resized image, studio lighting, 8K detail",
+            "text": "PROFESSIONAL product photo of [YOUR WATER BOTTLE], \nisolated on studio background, \nhyper-detailed, 8K, product photography, \nkeep original product EXACTLY THE SAME, \nONLY IMPROVE BACKGROUND and lighting\"",
             "clip": [
                 "21",
                 1
@@ -220,7 +220,7 @@
     },
     "20": {
         "inputs": {
-            "text": "blurry, low quality, watermark",
+            "text": "\"people, humans, faces, deformed bottle, \nblurry, low quality, text, watermark\"",
             "clip": [
                 "21",
                 1
