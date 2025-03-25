@@ -54,7 +54,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                203521289027402,
+                201204962268348,
                 "randomize",
                 20,
                 8,
@@ -440,7 +440,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                436226368834697,
+                930912176000862,
                 "randomize",
                 20,
                 7,
@@ -609,7 +609,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "professional product photo of the resized image, studio lighting, 8K detail"
+                "PROFESSIONAL product photo of [YOUR WATER BOTTLE], \nisolated on studio background, \nhyper-detailed, 8K, product photography, \nkeep original product EXACTLY THE SAME, \nONLY IMPROVE BACKGROUND and lighting\""
             ]
         },
         {
@@ -649,7 +649,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "blurry, low quality, watermark"
+                "\"people, humans, faces, deformed bottle, \nblurry, low quality, text, watermark\""
             ]
         },
         {
@@ -968,8 +968,8 @@
         "ds": {
             "scale": 0.6209213230591553,
             "offset": [
-                216.12190200802021,
-                1130.916132500273
+                260.6956329772585,
+                1076.7427895877659
             ]
         }
     },
