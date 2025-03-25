@@ -1,6 +1,6 @@
 {
-    "last_node_id": 18,
-    "last_link_id": 18,
+    "last_node_id": 23,
+    "last_link_id": 25,
     "nodes": [
         {
             "id": 3,
@@ -14,7 +14,7 @@
                 262
             ],
             "flags": {},
-            "order": 7,
+            "order": 10,
             "mode": 0,
             "inputs": [
                 {
@@ -54,7 +54,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                444927116618970,
+                940859859078879,
                 "randomize",
                 20,
                 8,
@@ -162,7 +162,7 @@
                 164.31304931640625
             ],
             "flags": {},
-            "order": 4,
+            "order": 5,
             "mode": 0,
             "inputs": [
                 {
@@ -202,7 +202,7 @@
                 180.6060791015625
             ],
             "flags": {},
-            "order": 5,
+            "order": 6,
             "mode": 0,
             "inputs": [
                 {
@@ -242,7 +242,7 @@
                 46
             ],
             "flags": {},
-            "order": 10,
+            "order": 13,
             "mode": 0,
             "inputs": [
                 {
@@ -285,7 +285,7 @@
                 270
             ],
             "flags": {},
-            "order": 12,
+            "order": 15,
             "mode": 0,
             "inputs": [
                 {
@@ -307,15 +307,15 @@
             "id": 11,
             "type": "FSLoadImage",
             "pos": [
-                116.57730102539062,
-                -456.75946044921875
+                171.68478393554688,
+                -513.883056640625
             ],
             "size": [
                 315,
                 318
             ],
             "flags": {},
-            "order": 2,
+            "order": 4,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -334,7 +334,7 @@
                 "Node name for S&R": "FSLoadImage"
             },
             "widgets_values": [
-                "example.png",
+                "1024x1024 champagne bottle.png",
                 "image",
                 "Input Image"
             ]
@@ -343,15 +343,15 @@
             "id": 12,
             "type": "ImageResize+",
             "pos": [
-                509.3343200683594,
-                -457.0655212402344
+                520.1602783203125,
+                -712.5635986328125
             ],
             "size": [
                 315,
                 218
             ],
             "flags": {},
-            "order": 6,
+            "order": 9,
             "mode": 0,
             "inputs": [
                 {
@@ -399,15 +399,15 @@
             "id": 13,
             "type": "PreviewImage",
             "pos": [
-                923.1358642578125,
-                -184.1483154296875
+                882.6458740234375,
+                -629.5383911132812
             ],
             "size": [
                 210,
                 246
             ],
             "flags": {},
-            "order": 8,
+            "order": 11,
             "mode": 0,
             "inputs": [
                 {
@@ -427,31 +427,31 @@
             "id": 15,
             "type": "KSampler",
             "pos": [
-                1184.970703125,
-                -596.8311767578125
+                1108.0238037109375,
+                -1011.9849853515625
             ],
             "size": [
                 315,
                 262
             ],
             "flags": {},
-            "order": 11,
+            "order": 14,
             "mode": 0,
             "inputs": [
                 {
                     "name": "model",
                     "type": "MODEL",
-                    "link": null
+                    "link": 21
                 },
                 {
                     "name": "positive",
                     "type": "CONDITIONING",
-                    "link": null
+                    "link": 22
                 },
                 {
                     "name": "negative",
                     "type": "CONDITIONING",
-                    "link": null
+                    "link": 23
                 },
                 {
                     "name": "latent_image",
@@ -475,10 +475,10 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                1014037154355455,
+                1020097965268571,
                 "randomize",
-                20,
-                8,
+                25,
+                8.5,
                 "euler",
                 "normal",
                 1
@@ -488,8 +488,8 @@
             "id": 16,
             "type": "VAELoader",
             "pos": [
-                728.3292846679688,
-                -619.6856079101562
+                515.8729248046875,
+                -1171.5689697265625
             ],
             "size": [
                 315,
@@ -523,15 +523,15 @@
             "id": 17,
             "type": "VAEEncode",
             "pos": [
-                1166.760009765625,
-                -282.09222412109375
+                848.8876953125,
+                -827.0630493164062
             ],
             "size": [
                 210,
                 46
             ],
             "flags": {},
-            "order": 9,
+            "order": 12,
             "mode": 0,
             "inputs": [
                 {
@@ -565,15 +565,15 @@
             "id": 18,
             "type": "VAEDecode",
             "pos": [
-                1558.705322265625,
-                -691.7929077148438
+                1519.3370361328125,
+                -1111.0618896484375
             ],
             "size": [
                 210,
                 46
             ],
             "flags": {},
-            "order": 13,
+            "order": 16,
             "mode": 0,
             "inputs": [
                 {
@@ -591,7 +591,10 @@
                 {
                     "name": "IMAGE",
                     "type": "IMAGE",
-                    "links": null
+                    "links": [
+                        25
+                    ],
+                    "slot_index": 0
                 }
             ],
             "properties": {
@@ -599,6 +602,171 @@
                 "ver": "0.3.15",
                 "Node name for S&R": "VAEDecode"
             }
+        },
+        {
+            "id": 19,
+            "type": "CLIPTextEncode",
+            "pos": [
+                88.76454162597656,
+                -1025.820556640625
+            ],
+            "size": [
+                400,
+                200
+            ],
+            "flags": {},
+            "order": 7,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "clip",
+                    "type": "CLIP",
+                    "link": 19
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "CONDITIONING",
+                    "type": "CONDITIONING",
+                    "links": [
+                        22
+                    ],
+                    "slot_index": 0
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.15",
+                "Node name for S&R": "CLIPTextEncode"
+            },
+            "widgets_values": [
+                "professional product photo, studio lighting, 8K detail"
+            ]
+        },
+        {
+            "id": 20,
+            "type": "CLIPTextEncode",
+            "pos": [
+                88.40518951416016,
+                -777.41552734375
+            ],
+            "size": [
+                400,
+                200
+            ],
+            "flags": {},
+            "order": 8,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "clip",
+                    "type": "CLIP",
+                    "link": 20
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "CONDITIONING",
+                    "type": "CONDITIONING",
+                    "links": [
+                        23
+                    ],
+                    "slot_index": 0
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.15",
+                "Node name for S&R": "CLIPTextEncode"
+            },
+            "widgets_values": [
+                "blurry, low quality, watermark"
+            ]
+        },
+        {
+            "id": 21,
+            "type": "CheckpointLoader|pysssss",
+            "pos": [
+                -167.06771850585938,
+                -896.52587890625
+            ],
+            "size": [
+                210,
+                142
+            ],
+            "flags": {},
+            "order": 2,
+            "mode": 0,
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "MODEL",
+                    "type": "MODEL",
+                    "links": [
+                        21
+                    ],
+                    "slot_index": 0
+                },
+                {
+                    "name": "CLIP",
+                    "type": "CLIP",
+                    "links": [
+                        19,
+                        20
+                    ],
+                    "slot_index": 1
+                },
+                {
+                    "name": "VAE",
+                    "type": "VAE",
+                    "links": null
+                },
+                {
+                    "name": "example",
+                    "type": "STRING",
+                    "links": null
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfyui-custom-scripts",
+                "ver": "9f7b3215e6af317603056a9a1666bf6e83e28835",
+                "Node name for S&R": "CheckpointLoader|pysssss"
+            },
+            "widgets_values": [
+                "epicrealism_naturalSinRC1VAE.safetensors",
+                "",
+                "[none]"
+            ]
+        },
+        {
+            "id": 23,
+            "type": "SaveImage",
+            "pos": [
+                1799.210693359375,
+                -1113.3389892578125
+            ],
+            "size": [
+                315,
+                58
+            ],
+            "flags": {},
+            "order": 17,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "images",
+                    "type": "IMAGE",
+                    "link": 25
+                }
+            ],
+            "outputs": [],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.15"
+            },
+            "widgets_values": [
+                "ComfyUI"
+            ]
         }
     ],
     "links": [
@@ -729,16 +897,64 @@
             17,
             1,
             "VAE"
+        ],
+        [
+            19,
+            21,
+            1,
+            19,
+            0,
+            "CLIP"
+        ],
+        [
+            20,
+            21,
+            1,
+            20,
+            0,
+            "CLIP"
+        ],
+        [
+            21,
+            21,
+            0,
+            15,
+            0,
+            "MODEL"
+        ],
+        [
+            22,
+            19,
+            0,
+            15,
+            1,
+            "CONDITIONING"
+        ],
+        [
+            23,
+            20,
+            0,
+            15,
+            2,
+            "CONDITIONING"
+        ],
+        [
+            25,
+            18,
+            0,
+            23,
+            0,
+            "IMAGE"
         ]
     ],
     "groups": [],
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.513158118230707,
+            "scale": 0.683013455365071,
             "offset": [
-                260.87650040087044,
-                974.9422328221342
+                6.203987040390292,
+                918.5387594208809
             ]
         }
     },
