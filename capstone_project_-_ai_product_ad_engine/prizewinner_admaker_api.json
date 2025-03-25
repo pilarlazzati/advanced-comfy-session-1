@@ -1,7 +1,7 @@
 {
     "3": {
         "inputs": {
-            "seed": 444927116618970,
+            "seed": 940859859078879,
             "steps": 20,
             "cfg": 8,
             "sampler_name": "euler",
@@ -106,7 +106,7 @@
     },
     "11": {
         "inputs": {
-            "image": "example.png",
+            "image": "1024x1024 champagne bottle.png",
             "upload": "image",
             "label": "Input Image"
         },
@@ -147,12 +147,24 @@
     },
     "15": {
         "inputs": {
-            "seed": 1014037154355455,
-            "steps": 20,
-            "cfg": 8,
+            "seed": 1020097965268571,
+            "steps": 25,
+            "cfg": 8.5,
             "sampler_name": "euler",
             "scheduler": "normal",
             "denoise": 1,
+            "model": [
+                "21",
+                0
+            ],
+            "positive": [
+                "19",
+                0
+            ],
+            "negative": [
+                "20",
+                0
+            ],
             "latent_image": [
                 "17",
                 0
@@ -202,6 +214,56 @@
         "class_type": "VAEDecode",
         "_meta": {
             "title": "VAE Decode"
+        }
+    },
+    "19": {
+        "inputs": {
+            "text": "professional product photo, studio lighting, 8K detail",
+            "clip": [
+                "21",
+                1
+            ]
+        },
+        "class_type": "CLIPTextEncode",
+        "_meta": {
+            "title": "CLIP Text Encode (Prompt)"
+        }
+    },
+    "20": {
+        "inputs": {
+            "text": "blurry, low quality, watermark",
+            "clip": [
+                "21",
+                1
+            ]
+        },
+        "class_type": "CLIPTextEncode",
+        "_meta": {
+            "title": "CLIP Text Encode (Prompt)"
+        }
+    },
+    "21": {
+        "inputs": {
+            "ckpt_name": "epicrealism_naturalSinRC1VAE.safetensors",
+            "prompt": "",
+            "example": "[none]"
+        },
+        "class_type": "CheckpointLoader|pysssss",
+        "_meta": {
+            "title": "Checkpoint Loader 🐍"
+        }
+    },
+    "23": {
+        "inputs": {
+            "filename_prefix": "ComfyUI",
+            "images": [
+                "18",
+                0
+            ]
+        },
+        "class_type": "SaveImage",
+        "_meta": {
+            "title": "Save Image"
         }
     }
 }
