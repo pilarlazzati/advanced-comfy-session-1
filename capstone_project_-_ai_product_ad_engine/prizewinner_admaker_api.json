@@ -1,7 +1,7 @@
 {
     "3": {
         "inputs": {
-            "seed": 859917712683715,
+            "seed": 318319662163509,
             "steps": 20,
             "cfg": 8,
             "sampler_name": "euler",
@@ -104,27 +104,16 @@
             "title": "Save Image"
         }
     },
-    "11": {
-        "inputs": {
-            "image": "1024x1024 champagne bottle.png",
-            "upload": "image",
-            "label": "Input Image"
-        },
-        "class_type": "FSLoadImage",
-        "_meta": {
-            "title": "[FS]⚡Load Image (Input)"
-        }
-    },
     "12": {
         "inputs": {
-            "width": 512,
-            "height": 512,
+            "width": 1024,
+            "height": 1024,
             "interpolation": "nearest",
             "method": "stretch",
             "condition": "always",
             "multiple_of": 0,
             "image": [
-                "11",
+                "25",
                 0
             ]
         },
@@ -147,7 +136,7 @@
     },
     "15": {
         "inputs": {
-            "seed": 439081679652114,
+            "seed": 667704942802854,
             "steps": 20,
             "cfg": 7,
             "sampler_name": "euler",
@@ -218,7 +207,7 @@
     },
     "19": {
         "inputs": {
-            "text": "professional product photo, studio lighting, 8K detail",
+            "text": "professional product photo of the product loaded in the fs load image, studio lighting, 8K detail",
             "clip": [
                 "21",
                 1
@@ -268,6 +257,17 @@
         "class_type": "FSSaveImage",
         "_meta": {
             "title": "[FS]⚡Save Image (Output)"
+        }
+    },
+    "25": {
+        "inputs": {
+            "image": "water-bottle.jpeg",
+            "upload": "image",
+            "label": "Input Image"
+        },
+        "class_type": "FSLoadImage",
+        "_meta": {
+            "title": "[FS]⚡Load Image (Input)"
         }
     }
 }
