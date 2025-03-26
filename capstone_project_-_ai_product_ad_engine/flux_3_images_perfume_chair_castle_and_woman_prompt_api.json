@@ -1,7 +1,7 @@
 {
     "6": {
         "inputs": {
-            "text": "Ultra-realistic, high-fashion product photography: a glamorous, classy influencer woman in her 40s wearing a stylish pamela with subtle highlights in her hair, wavy hair, gracefully holding an exquisite Jean Paul Gaultierâinspired perfume bottle shaped like a female torso. She is seated on a luxurious royal chair, framed by a majestic castle backdrop exuding regal splendor. The scene is bathed in dramatic, cinematic lighting that accentuates rich textures and intricate details, creating an unforgettable blend of modern chic and timeless opulence. Emphasize the distinctive, elegant perfume bottle (not a whiskey or liquor bottle).\n\nNegative Prompt\n\"NO whiskey, liquor, scotch, brandy, wine, bottle of whiskey, glass of whiskey, child, teen, elderly, male, messy hair, poorly drawn, extra limbs, extra fingers, deformed, disfigured, cartoon, anime, illustration, painting, sketch, watermark, text, signature, cropped, blurry, ugly, low quality, naked, nude, easynegative, bad anatomy, bad proportions, glitch\"",
+            "text": "Ultra-realistic, high-fashion product photography: a glamorous, classy influencer woman in her 40s wearing a stylish pamela with subtle highlights in her hair, wavy hair, gracefully holding an exquisite Jean Paul Gaultier perfume bottle shaped like a female torso. She is seated on a luxurious royal chair, framed by a majestic castle backdrop exuding regal splendor. The scene is bathed in dramatic, cinematic lighting that accentuates rich textures and intricate details, creating an unforgettable blend of modern chic and timeless opulence. Emphasize the distinctive, elegant perfume bottle (not a whiskey or liquor bottle).\n\nNegative Prompt\n\"NO whiskey, liquor, scotch, brandy, wine, bottle of whiskey, glass of whiskey, child, teen, elderly, male, messy hair, poorly drawn, extra limbs, extra fingers, deformed, disfigured, cartoon, anime, illustration, painting, sketch, watermark, text, signature, cropped, blurry, ugly, low quality, naked, nude, easynegative, bad anatomy, bad proportions, glitch\"",
             "clip": [
                 "38",
                 0
@@ -254,7 +254,7 @@
     },
     "155": {
         "inputs": {
-            "image": "clipspace/clipspace-mask-2564125.4000000954.png [input]",
+            "image": "1024x1024 Jean Paul Gaultier Perfume Woman.jpeg",
             "upload": "image"
         },
         "class_type": "LoadImage",
@@ -264,7 +264,7 @@
     },
     "156": {
         "inputs": {
-            "image": "pink-double-chair-11.jpg",
+            "image": "pink-royal-double-chair.jpg",
             "upload": "image"
         },
         "class_type": "LoadImage",
@@ -274,7 +274,7 @@
     },
     "157": {
         "inputs": {
-            "image": "the-most-beautiful-castles-in-the-world.jpg",
+            "image": "Eiffel_Tower_Spring_Background.jpeg",
             "upload": "image"
         },
         "class_type": "LoadImage",
