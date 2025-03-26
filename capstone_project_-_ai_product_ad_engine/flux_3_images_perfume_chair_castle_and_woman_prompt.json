@@ -40,7 +40,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "Ultra-realistic, high-fashion product photography: a glamorous, classy influencer woman in her 40s wearing a stylish pamela with subtle highlights in her hair, wavy hair, gracefully holding an exquisite Jean Paul Gaultierâinspired perfume bottle shaped like a female torso. She is seated on a luxurious royal chair, framed by a majestic castle backdrop exuding regal splendor. The scene is bathed in dramatic, cinematic lighting that accentuates rich textures and intricate details, creating an unforgettable blend of modern chic and timeless opulence. Emphasize the distinctive, elegant perfume bottle (not a whiskey or liquor bottle).\n\nNegative Prompt\n\"NO whiskey, liquor, scotch, brandy, wine, bottle of whiskey, glass of whiskey, child, teen, elderly, male, messy hair, poorly drawn, extra limbs, extra fingers, deformed, disfigured, cartoon, anime, illustration, painting, sketch, watermark, text, signature, cropped, blurry, ugly, low quality, naked, nude, easynegative, bad anatomy, bad proportions, glitch\""
+                "Ultra-realistic, high-fashion product photography: a glamorous, classy influencer woman in her 40s wearing a stylish pamela with subtle highlights in her hair, wavy hair, gracefully holding an exquisite Jean Paul Gaultier perfume bottle shaped like a female torso. She is seated on a luxurious royal chair, framed by a majestic castle backdrop exuding regal splendor. The scene is bathed in dramatic, cinematic lighting that accentuates rich textures and intricate details, creating an unforgettable blend of modern chic and timeless opulence. Emphasize the distinctive, elegant perfume bottle (not a whiskey or liquor bottle).\n\nNegative Prompt\n\"NO whiskey, liquor, scotch, brandy, wine, bottle of whiskey, glass of whiskey, child, teen, elderly, male, messy hair, poorly drawn, extra limbs, extra fingers, deformed, disfigured, cartoon, anime, illustration, painting, sketch, watermark, text, signature, cropped, blurry, ugly, low quality, naked, nude, easynegative, bad anatomy, bad proportions, glitch\""
             ],
             "color": "#232",
             "bgcolor": "#353"
@@ -435,7 +435,7 @@
                 234
             ],
             "flags": {},
-            "order": 21,
+            "order": 20,
             "mode": 0,
             "inputs": [
                 {
@@ -486,10 +486,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "kaibioinfo/ComfyUI_AdvancedRefluxControl",
+                "cnr_id": "ComfyUI_AdvancedRefluxControl",
                 "ver": "0a87efa252ae5e8f4af1225b0e19c867f908376a",
                 "Node name for S&R": "ReduxAdvanced",
-                "cnr_id": "ComfyUI_AdvancedRefluxControl"
+                "aux_id": "kaibioinfo/ComfyUI_AdvancedRefluxControl"
             },
             "widgets_values": [
                 3,
@@ -562,10 +562,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "kaibioinfo/ComfyUI_AdvancedRefluxControl",
+                "cnr_id": "ComfyUI_AdvancedRefluxControl",
                 "ver": "0a87efa252ae5e8f4af1225b0e19c867f908376a",
                 "Node name for S&R": "ReduxAdvanced",
-                "cnr_id": "ComfyUI_AdvancedRefluxControl"
+                "aux_id": "kaibioinfo/ComfyUI_AdvancedRefluxControl"
             },
             "widgets_values": [
                 3,
@@ -638,10 +638,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "kaibioinfo/ComfyUI_AdvancedRefluxControl",
+                "cnr_id": "ComfyUI_AdvancedRefluxControl",
                 "ver": "0a87efa252ae5e8f4af1225b0e19c867f908376a",
                 "Node name for S&R": "ReduxAdvanced",
-                "cnr_id": "ComfyUI_AdvancedRefluxControl"
+                "aux_id": "kaibioinfo/ComfyUI_AdvancedRefluxControl"
             },
             "widgets_values": [
                 3,
@@ -729,7 +729,7 @@
                 314
             ],
             "flags": {},
-            "order": 11,
+            "order": 9,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -756,7 +756,7 @@
                 "Node name for S&R": "LoadImage"
             },
             "widgets_values": [
-                "clipspace/clipspace-mask-2564125.4000000954.png [input]",
+                "1024x1024 Jean Paul Gaultier Perfume Woman.jpeg",
                 "image"
             ]
         },
@@ -772,7 +772,7 @@
                 314
             ],
             "flags": {},
-            "order": 9,
+            "order": 10,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -798,7 +798,7 @@
                 "Node name for S&R": "LoadImage"
             },
             "widgets_values": [
-                "pink-double-chair-11.jpg",
+                "pink-royal-double-chair.jpg",
                 "image"
             ]
         },
@@ -814,7 +814,7 @@
                 314
             ],
             "flags": {},
-            "order": 10,
+            "order": 11,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -838,7 +838,7 @@
                 "Node name for S&R": "LoadImage"
             },
             "widgets_values": [
-                "the-most-beautiful-castles-in-the-world.jpg",
+                "Eiffel_Tower_Spring_Background.jpeg",
                 "image"
             ]
         },
@@ -898,10 +898,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "cubiq/ComfyUI_essentials",
+                "cnr_id": "comfyui_essentials",
                 "ver": "33ff89fd354d8ec3ab6affb605a79a931b445d99",
                 "Node name for S&R": "ImageResize+",
-                "cnr_id": "comfyui_essentials"
+                "aux_id": "cubiq/ComfyUI_essentials"
             },
             "widgets_values": [
                 0,
@@ -950,10 +950,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "kijai/ComfyUI-KJNodes",
+                "cnr_id": "comfyui-kjnodes",
                 "ver": "1a4259f05206d7360be7a90145b5839d5b64d893",
                 "Node name for S&R": "ImageConcanate",
-                "cnr_id": "comfyui-kjnodes"
+                "aux_id": "kijai/ComfyUI-KJNodes"
             },
             "widgets_values": [
                 "right",
@@ -1310,10 +1310,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "kijai/ComfyUI-KJNodes",
+                "cnr_id": "comfyui-kjnodes",
                 "ver": "1a4259f05206d7360be7a90145b5839d5b64d893",
                 "Node name for S&R": "ImageConcanate",
-                "cnr_id": "comfyui-kjnodes"
+                "aux_id": "kijai/ComfyUI-KJNodes"
             },
             "widgets_values": [
                 "right",
@@ -1529,10 +1529,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "kijai/ComfyUI-KJNodes",
+                "cnr_id": "comfyui-kjnodes",
                 "ver": "1a4259f05206d7360be7a90145b5839d5b64d893",
                 "Node name for S&R": "ImageAndMaskPreview",
-                "cnr_id": "comfyui-kjnodes"
+                "aux_id": "kijai/ComfyUI-KJNodes"
             },
             "widgets_values": [
                 0.5,
@@ -1593,10 +1593,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "cubiq/ComfyUI_essentials",
+                "cnr_id": "comfyui_essentials",
                 "ver": "33ff89fd354d8ec3ab6affb605a79a931b445d99",
                 "Node name for S&R": "ImageResize+",
-                "cnr_id": "comfyui_essentials"
+                "aux_id": "cubiq/ComfyUI_essentials"
             },
             "widgets_values": [
                 1024,
@@ -1667,10 +1667,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "kijai/ComfyUI-KJNodes",
+                "cnr_id": "comfyui-kjnodes",
                 "ver": "1a4259f05206d7360be7a90145b5839d5b64d893",
                 "Node name for S&R": "ResizeMask",
-                "cnr_id": "comfyui-kjnodes"
+                "aux_id": "kijai/ComfyUI-KJNodes"
             },
             "widgets_values": [
                 512,
@@ -1713,10 +1713,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "ltdrdata/ComfyUI-Impact-Pack",
+                "cnr_id": "comfyui-impact-pack",
                 "ver": "8.8.1",
                 "Node name for S&R": "ImpactGaussianBlurMask",
-                "cnr_id": "comfyui-impact-pack"
+                "aux_id": "ltdrdata/ComfyUI-Impact-Pack"
             },
             "widgets_values": [
                 50,
@@ -1824,10 +1824,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "lquesada/ComfyUI-Inpaint-CropAndStitch",
+                "cnr_id": "comfyui-inpaint-cropandstitch",
                 "ver": "1.0.0",
                 "Node name for S&R": "InpaintCrop",
-                "cnr_id": "comfyui-inpaint-cropandstitch"
+                "aux_id": "lquesada/ComfyUI-Inpaint-CropAndStitch"
             },
             "widgets_values": [
                 0,
@@ -1887,10 +1887,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "lquesada/ComfyUI-Inpaint-CropAndStitch",
+                "cnr_id": "comfyui-inpaint-cropandstitch",
                 "ver": "1.0.0",
                 "Node name for S&R": "InpaintStitch",
-                "cnr_id": "comfyui-inpaint-cropandstitch"
+                "aux_id": "lquesada/ComfyUI-Inpaint-CropAndStitch"
             },
             "widgets_values": [
                 "bislerp"
@@ -2041,7 +2041,7 @@
                 129.3773956298828
             ],
             "flags": {},
-            "order": 17,
+            "order": 16,
             "mode": 0,
             "inputs": [
                 {
@@ -2079,10 +2079,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "storyicon/comfyui_segment_anything",
+                "cnr_id": "comfyui_segment_anything",
                 "ver": "ab6395596399d5048639cdab7e44ec9fae857a93",
                 "Node name for S&R": "GroundingDinoSAMSegment (segment anything)",
-                "cnr_id": "comfyui_segment_anything"
+                "aux_id": "storyicon/comfyui_segment_anything"
             },
             "widgets_values": [
                 "full face, hair",
@@ -2117,10 +2117,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "ltdrdata/ComfyUI-Impact-Pack",
+                "cnr_id": "comfyui-impact-pack",
                 "ver": "6e3d07277bfc0817150c8daa2e3b6fc3595c9745",
                 "Node name for S&R": "SAMLoader",
-                "cnr_id": "comfyui-impact-pack"
+                "aux_id": "ltdrdata/ComfyUI-Impact-Pack"
             },
             "widgets_values": [
                 "sam_vit_b_01ec64.pth",
@@ -2155,10 +2155,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "storyicon/comfyui_segment_anything",
+                "cnr_id": "comfyui_segment_anything",
                 "ver": "ab6395596399d5048639cdab7e44ec9fae857a93",
                 "Node name for S&R": "GroundingDinoModelLoader (segment anything)",
-                "cnr_id": "comfyui_segment_anything"
+                "aux_id": "storyicon/comfyui_segment_anything"
             },
             "widgets_values": [
                 "GroundingDINO_SwinB (938MB)"
@@ -2176,7 +2176,7 @@
                 246
             ],
             "flags": {},
-            "order": 20,
+            "order": 19,
             "mode": 0,
             "inputs": [
                 {
@@ -2205,7 +2205,7 @@
                 129.37229919433594
             ],
             "flags": {},
-            "order": 16,
+            "order": 17,
             "mode": 0,
             "inputs": [
                 {
@@ -2243,10 +2243,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "storyicon/comfyui_segment_anything",
+                "cnr_id": "comfyui_segment_anything",
                 "ver": "ab6395596399d5048639cdab7e44ec9fae857a93",
                 "Node name for S&R": "GroundingDinoSAMSegment (segment anything)",
-                "cnr_id": "comfyui_segment_anything"
+                "aux_id": "storyicon/comfyui_segment_anything"
             },
             "widgets_values": [
                 "object",
@@ -2265,7 +2265,7 @@
                 246
             ],
             "flags": {},
-            "order": 19,
+            "order": 21,
             "mode": 0,
             "inputs": [
                 {
@@ -2332,10 +2332,10 @@
                 }
             ],
             "properties": {
-                "aux_id": "storyicon/comfyui_segment_anything",
+                "cnr_id": "comfyui_segment_anything",
                 "ver": "ab6395596399d5048639cdab7e44ec9fae857a93",
                 "Node name for S&R": "GroundingDinoSAMSegment (segment anything)",
-                "cnr_id": "comfyui_segment_anything"
+                "aux_id": "storyicon/comfyui_segment_anything"
             },
             "widgets_values": [
                 "full face, hair",
@@ -3244,10 +3244,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.50544702849933,
+            "scale": 1.0834705943389158,
             "offset": [
-                188.60037521545848,
-                -214.88771112766892
+                -213.6304731496726,
+                -1278.7585771936815
             ]
         }
     },
