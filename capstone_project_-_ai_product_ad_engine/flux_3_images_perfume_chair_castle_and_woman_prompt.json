@@ -182,7 +182,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                173805153958812,
+                173805153958813,
                 "increment",
                 30,
                 1,
@@ -756,7 +756,7 @@
                 "Node name for S&R": "LoadImage"
             },
             "widgets_values": [
-                "1024x1024 Jean Paul Gaultier Perfume Woman.jpeg",
+                "clipspace/clipspace-mask-388079.80000019073.png [input]",
                 "image"
             ]
         },
@@ -1451,7 +1451,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                897061443468668,
+                706520445034951,
                 "randomize",
                 12,
                 1,
@@ -3244,10 +3244,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 1.0834705943389158,
+            "scale": 0.8140274938684569,
             "offset": [
-                -213.6304731496726,
-                -1278.7585771936815
+                -187.57438990430754,
+                -1223.2060417305124
             ]
         }
     },
