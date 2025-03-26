@@ -40,7 +40,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "Ultra-realistic, high-fashion product photography: a glamorous, classy influencer woman in her 40s wearing a stylish pamela with subtle highlights in her hair, wavy hair, gracefully holding an exquisite Jean Paul Gaultier–inspired perfume bottle shaped like a female torso. She is seated on a luxurious royal chair, framed by a majestic castle backdrop exuding regal splendor. The scene is bathed in dramatic, cinematic lighting that accentuates rich textures and intricate details, creating an unforgettable blend of modern chic and timeless opulence. Emphasize the distinctive, elegant perfume bottle (not a whiskey or liquor bottle).\n\nNegative Prompt\n\"NO whiskey, liquor, scotch, brandy, wine, bottle of whiskey, glass of whiskey, child, teen, elderly, male, messy hair, poorly drawn, extra limbs, extra fingers, deformed, disfigured, cartoon, anime, illustration, painting, sketch, watermark, text, signature, cropped, blurry, ugly, low quality, naked, nude, easynegative, bad anatomy, bad proportions, glitch\""
+                "Ultra-realistic, high-fashion product photography: a glamorous, classy influencer woman in her 40s wearing a stylish pamela with subtle highlights in her hair, wavy hair, gracefully holding an exquisite Jean Paul Gaultierâinspired perfume bottle shaped like a female torso. She is seated on a luxurious royal chair, framed by a majestic castle backdrop exuding regal splendor. The scene is bathed in dramatic, cinematic lighting that accentuates rich textures and intricate details, creating an unforgettable blend of modern chic and timeless opulence. Emphasize the distinctive, elegant perfume bottle (not a whiskey or liquor bottle).\n\nNegative Prompt\n\"NO whiskey, liquor, scotch, brandy, wine, bottle of whiskey, glass of whiskey, child, teen, elderly, male, messy hair, poorly drawn, extra limbs, extra fingers, deformed, disfigured, cartoon, anime, illustration, painting, sketch, watermark, text, signature, cropped, blurry, ugly, low quality, naked, nude, easynegative, bad anatomy, bad proportions, glitch\""
             ],
             "color": "#232",
             "bgcolor": "#353"
@@ -182,7 +182,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                173805153958811,
+                173805153958812,
                 "increment",
                 30,
                 1,
@@ -435,7 +435,7 @@
                 234
             ],
             "flags": {},
-            "order": 20,
+            "order": 21,
             "mode": 0,
             "inputs": [
                 {
@@ -729,7 +729,7 @@
                 314
             ],
             "flags": {},
-            "order": 9,
+            "order": 11,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -756,7 +756,7 @@
                 "Node name for S&R": "LoadImage"
             },
             "widgets_values": [
-                "Jean Paul Gaultier Perfum Woman.jpeg",
+                "clipspace/clipspace-mask-2564125.4000000954.png [input]",
                 "image"
             ]
         },
@@ -772,7 +772,7 @@
                 314
             ],
             "flags": {},
-            "order": 10,
+            "order": 9,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -814,7 +814,7 @@
                 314
             ],
             "flags": {},
-            "order": 11,
+            "order": 10,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -838,7 +838,7 @@
                 "Node name for S&R": "LoadImage"
             },
             "widgets_values": [
-                "the-most-beautiful-castles-in-the-world (1).jpg",
+                "the-most-beautiful-castles-in-the-world.jpg",
                 "image"
             ]
         },
@@ -1451,7 +1451,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                706202292640311,
+                897061443468668,
                 "randomize",
                 12,
                 1,
@@ -1936,7 +1936,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "Ultra-realistic, high-fashion product photography: a glamorous influencer woman in her 40s wearing a stylish pamela with subtle highlights in her hair, gracefully holding an exquisite Jean Paul Gaultierâinspired perfume bottle shaped like a female torso. She is seated on a luxurious royal chair, framed by a majestic castle backdrop exuding regal splendor. The scene is bathed in dramatic, cinematic lighting that accentuates rich textures and intricate details, creating an unforgettable blend of modern chic and timeless opulence. Emphasize the distinctive, elegant perfume bottle (not a whiskey or liquor bottle). No whiskey, liquor, scotch, brandy, wine, bottle of whiskey, glass of whiskey, child, teen, elderly, male, messy hair, poorly drawn, extra limbs, extra fingers, deformed, disfigured, cartoon, anime, illustration, painting, sketch, watermark, text, signature, cropped, blurry, ugly, low quality, naked, nude, easynegative, bad anatomy, bad proportions, glitch\""
+                ""
             ],
             "color": "#232",
             "bgcolor": "#353"
@@ -2024,7 +2024,7 @@
                 "Node name for S&R": "LoraLoader"
             },
             "widgets_values": [
-                "ace_plus/comfyui_portrait_lora64.safetensors",
+                "ace_plus/comfyui_subject_lora16.safetensors",
                 1,
                 1
             ]
@@ -2041,7 +2041,7 @@
                 129.3773956298828
             ],
             "flags": {},
-            "order": 16,
+            "order": 17,
             "mode": 0,
             "inputs": [
                 {
@@ -2176,7 +2176,7 @@
                 246
             ],
             "flags": {},
-            "order": 19,
+            "order": 20,
             "mode": 0,
             "inputs": [
                 {
@@ -2205,7 +2205,7 @@
                 129.37229919433594
             ],
             "flags": {},
-            "order": 17,
+            "order": 16,
             "mode": 0,
             "inputs": [
                 {
@@ -2265,7 +2265,7 @@
                 246
             ],
             "flags": {},
-            "order": 21,
+            "order": 19,
             "mode": 0,
             "inputs": [
                 {
@@ -2477,8 +2477,8 @@
             "id": 205,
             "type": "PreviewImage",
             "pos": [
-                4229.0712890625,
-                1554.3614501953125
+                4250.091796875,
+                1561.8687744140625
             ],
             "size": [
                 210,
@@ -3244,10 +3244,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 1.0834705943389082,
+            "scale": 0.50544702849933,
             "offset": [
-                -4484.124521452183,
-                -367.04485028756216
+                188.60037521545848,
+                -214.88771112766892
             ]
         }
     },
