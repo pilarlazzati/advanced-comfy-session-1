@@ -1,7 +1,7 @@
 {
     "6": {
         "inputs": {
-            "text": "Ultra-realistic, high-fashion product photography: a glamorous, classy influencer woman in her 40s wearing a stylish pamela with subtle highlights in her hair, wavy hair, gracefully holding an exquisite Jean Paul Gaultier–inspired perfume bottle shaped like a female torso. She is seated on a luxurious royal chair, framed by a majestic castle backdrop exuding regal splendor. The scene is bathed in dramatic, cinematic lighting that accentuates rich textures and intricate details, creating an unforgettable blend of modern chic and timeless opulence. Emphasize the distinctive, elegant perfume bottle (not a whiskey or liquor bottle).\n\nNegative Prompt\n\"NO whiskey, liquor, scotch, brandy, wine, bottle of whiskey, glass of whiskey, child, teen, elderly, male, messy hair, poorly drawn, extra limbs, extra fingers, deformed, disfigured, cartoon, anime, illustration, painting, sketch, watermark, text, signature, cropped, blurry, ugly, low quality, naked, nude, easynegative, bad anatomy, bad proportions, glitch\"",
+            "text": "Ultra-realistic, high-fashion product photography: a glamorous, classy influencer woman in her 40s wearing a stylish pamela with subtle highlights in her hair, wavy hair, gracefully holding an exquisite Jean Paul Gaultierâinspired perfume bottle shaped like a female torso. She is seated on a luxurious royal chair, framed by a majestic castle backdrop exuding regal splendor. The scene is bathed in dramatic, cinematic lighting that accentuates rich textures and intricate details, creating an unforgettable blend of modern chic and timeless opulence. Emphasize the distinctive, elegant perfume bottle (not a whiskey or liquor bottle).\n\nNegative Prompt\n\"NO whiskey, liquor, scotch, brandy, wine, bottle of whiskey, glass of whiskey, child, teen, elderly, male, messy hair, poorly drawn, extra limbs, extra fingers, deformed, disfigured, cartoon, anime, illustration, painting, sketch, watermark, text, signature, cropped, blurry, ugly, low quality, naked, nude, easynegative, bad anatomy, bad proportions, glitch\"",
             "clip": [
                 "38",
                 0
@@ -41,7 +41,7 @@
     },
     "31": {
         "inputs": {
-            "seed": 173805153958811,
+            "seed": 173805153958812,
             "steps": 30,
             "cfg": 1,
             "sampler_name": "euler",
@@ -254,7 +254,7 @@
     },
     "155": {
         "inputs": {
-            "image": "Jean Paul Gaultier Perfum Woman.jpeg",
+            "image": "clipspace/clipspace-mask-2564125.4000000954.png [input]",
             "upload": "image"
         },
         "class_type": "LoadImage",
@@ -274,7 +274,7 @@
     },
     "157": {
         "inputs": {
-            "image": "the-most-beautiful-castles-in-the-world (1).jpg",
+            "image": "the-most-beautiful-castles-in-the-world.jpg",
             "upload": "image"
         },
         "class_type": "LoadImage",
@@ -474,7 +474,7 @@
     },
     "172": {
         "inputs": {
-            "seed": 706202292640311,
+            "seed": 897061443468668,
             "steps": 12,
             "cfg": 1,
             "sampler_name": "euler",
@@ -651,7 +651,7 @@
     },
     "187": {
         "inputs": {
-            "text": "Ultra-realistic, high-fashion product photography: a glamorous influencer woman in her 40s wearing a stylish pamela with subtle highlights in her hair, gracefully holding an exquisite Jean Paul Gaultierâinspired perfume bottle shaped like a female torso. She is seated on a luxurious royal chair, framed by a majestic castle backdrop exuding regal splendor. The scene is bathed in dramatic, cinematic lighting that accentuates rich textures and intricate details, creating an unforgettable blend of modern chic and timeless opulence. Emphasize the distinctive, elegant perfume bottle (not a whiskey or liquor bottle). No whiskey, liquor, scotch, brandy, wine, bottle of whiskey, glass of whiskey, child, teen, elderly, male, messy hair, poorly drawn, extra limbs, extra fingers, deformed, disfigured, cartoon, anime, illustration, painting, sketch, watermark, text, signature, cropped, blurry, ugly, low quality, naked, nude, easynegative, bad anatomy, bad proportions, glitch\"",
+            "text": "",
             "clip": [
                 "189",
                 1
@@ -677,7 +677,7 @@
     },
     "189": {
         "inputs": {
-            "lora_name": "ace_plus/comfyui_portrait_lora64.safetensors",
+            "lora_name": "ace_plus/comfyui_subject_lora16.safetensors",
             "strength_model": 1,
             "strength_clip": 1,
             "model": [
