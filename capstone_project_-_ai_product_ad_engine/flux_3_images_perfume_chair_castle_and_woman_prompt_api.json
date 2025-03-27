@@ -41,7 +41,7 @@
     },
     "31": {
         "inputs": {
-            "seed": 173805153958813,
+            "seed": 173805153958814,
             "steps": 30,
             "cfg": 1,
             "sampler_name": "euler",
@@ -254,7 +254,7 @@
     },
     "155": {
         "inputs": {
-            "image": "clipspace/clipspace-mask-388079.80000019073.png [input]",
+            "image": "1024x1024 Jean Paul Gaultier Perfume Woman.jpeg",
             "upload": "image"
         },
         "class_type": "LoadImage",
@@ -274,7 +274,7 @@
     },
     "157": {
         "inputs": {
-            "image": "Eiffel_Tower_Spring_Background.jpeg",
+            "image": "castle.jpg",
             "upload": "image"
         },
         "class_type": "LoadImage",
@@ -474,7 +474,7 @@
     },
     "172": {
         "inputs": {
-            "seed": 706520445034951,
+            "seed": 834810824771489,
             "steps": 12,
             "cfg": 1,
             "sampler_name": "euler",
