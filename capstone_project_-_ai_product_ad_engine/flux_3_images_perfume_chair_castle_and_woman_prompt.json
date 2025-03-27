@@ -182,7 +182,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                173805153958813,
+                173805153958814,
                 "increment",
                 30,
                 1,
@@ -690,8 +690,8 @@
             "id": 154,
             "type": "SaveImage",
             "pos": [
-                1367.833984375,
-                278.3576354980469
+                1364.5308837890625,
+                275.054443359375
             ],
             "size": [
                 619.2056274414062,
@@ -756,7 +756,7 @@
                 "Node name for S&R": "LoadImage"
             },
             "widgets_values": [
-                "clipspace/clipspace-mask-388079.80000019073.png [input]",
+                "1024x1024 Jean Paul Gaultier Perfume Woman.jpeg",
                 "image"
             ]
         },
@@ -838,7 +838,7 @@
                 "Node name for S&R": "LoadImage"
             },
             "widgets_values": [
-                "Eiffel_Tower_Spring_Background.jpeg",
+                "castle.jpg",
                 "image"
             ]
         },
@@ -1451,7 +1451,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                706520445034951,
+                834810824771489,
                 "randomize",
                 12,
                 1,
@@ -3244,10 +3244,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.8140274938684569,
+            "scale": 0.1210000000000089,
             "offset": [
-                -187.57438990430754,
-                -1223.2060417305124
+                2051.021521690909,
+                148.71361850929645
             ]
         }
     },
