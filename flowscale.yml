@@ -119,11 +119,28 @@ workflows:
   - id: akj01afuxdt
     name: fashion_photography_workflow_api.json
     file: inpainting_and_outpainting/fashion_photography_workflow_api.json
-    version: 1
+    version: 2
     description: ''
-    inputs: []
-    outputs: []
+    inputs:
+      - path: 24.inputs.filename_prefix
+        label: filename_prefix
+        parameter_name: filename_prefix_29128
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+      - path: 25.inputs.image
+        label: Input Image
+        parameter_name: image_17038
+        type: string
+        demo_type: image
+        category: input
+        randomize: false
+    outputs:
+      - label: Output Image
+        demo_type: image
     skip_preprocess: true
+    advancedConfig: false
   - id: rjvns06to1
     name: controlnet_connection.json
     description: ''
@@ -255,7 +272,7 @@ normal_workflows:
   - id: 7yib30hpqgo
     name: fashion_photography_workflow.json
     file: inpainting_and_outpainting/fashion_photography_workflow.json
-    version: 1
+    version: 2
   - id: i5jd9dw524
     name: prizewinner_admaker.json
     file: capstone_project_-_ai_product_ad_engine/prizewinner_admaker.json
