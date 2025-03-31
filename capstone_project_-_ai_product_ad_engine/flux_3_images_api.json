@@ -41,7 +41,7 @@
     },
     "31": {
         "inputs": {
-            "seed": 173805153958815,
+            "seed": 173805153958816,
             "steps": 30,
             "cfg": 1,
             "sampler_name": "euler",
@@ -474,7 +474,7 @@
     },
     "172": {
         "inputs": {
-            "seed": 1072369886925466,
+            "seed": 679235970873281,
             "steps": 12,
             "cfg": 1,
             "sampler_name": "euler",
