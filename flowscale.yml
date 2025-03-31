@@ -217,12 +217,12 @@ workflows:
   - id: lg5hti9yv
     name: flux_3_images_api.json
     file: capstone_project_-_ai_product_ad_engine/flux_3_images_api.json
-    version: 8
+    version: 9
     description: ''
     inputs: []
     outputs: []
     skip_preprocess: true
-    advancedConfig: true
+    advancedConfig: false
 normal_workflows:
   - id: dt1vvo7wj2u
     name: basic_inpainting.json
@@ -285,7 +285,7 @@ normal_workflows:
   - id: pgx2y18mq2l
     name: flux_3_images.json
     file: capstone_project_-_ai_product_ad_engine/flux_3_images.json
-    version: 8
+    version: 9
   - id: 0ollhzzxm7pm
     name: flux_workflow_input_perfume_royalchair_castle_woman_face_swapt.json
     file: >-
