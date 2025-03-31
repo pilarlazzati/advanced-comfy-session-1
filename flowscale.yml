@@ -291,3 +291,7 @@ normal_workflows:
     file: >-
       capstone_project_-_ai_product_ad_engine/flux_workflow_input_perfume_royalchair_castle_woman_face_swapt.json
     version: 1
+  - id: 0pkorceque1p
+    name: ace_product_photography.json
+    file: capstone_project_-_ai_product_ad_engine/ace_product_photography.json
+    version: 0
